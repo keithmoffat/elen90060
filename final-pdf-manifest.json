@@ -1,0 +1,106 @@
+[
+  {
+    "file": "1.0-power-flow-review.pdf",
+    "pages": 35,
+    "expected_pages": 35,
+    "bytes": 1819131,
+    "sha256": "811a4a1ab44480e5aa225bb0500633f89e3a617b8eecad5b06a7da0dd26ca43e",
+    "footer_pages": 35
+  },
+  {
+    "file": "1.1-newton-raphson-power-flow.pdf",
+    "pages": 51,
+    "expected_pages": 51,
+    "bytes": 7265900,
+    "sha256": "501ef97089432fae6b731307f4b848e3ed949325debc145a5ecb24f299b2fe1a",
+    "footer_pages": 51
+  },
+  {
+    "file": "1.2-decoupled-power-flow.pdf",
+    "pages": 41,
+    "expected_pages": 41,
+    "bytes": 9107064,
+    "sha256": "911fdf73ef73df0cd90d6556d6fe08029609ba1c88da46146f7179e1c05cd889",
+    "footer_pages": 41
+  },
+  {
+    "file": "1.3-linearized-power-flow.pdf",
+    "pages": 57,
+    "expected_pages": 57,
+    "bytes": 6004536,
+    "sha256": "b16fa7c16fcfd16a66a7ade8906a70123a650bdff5d0844120dec43d4d34be95",
+    "footer_pages": 57
+  },
+  {
+    "file": "1.4-distribution-network-power-flow.pdf",
+    "pages": 69,
+    "expected_pages": 69,
+    "bytes": 41860231,
+    "sha256": "3bbdb93b7ee65dec7a1d7a5539233e7ddd164a77ff6e3cf555941497b5a8effe",
+    "footer_pages": 69
+  },
+  {
+    "file": "2.1-fault-analysis.pdf",
+    "pages": 74,
+    "expected_pages": 74,
+    "bytes": 10163735,
+    "sha256": "889bd7b49d9bc459029dea9ad4f61ad5063c3e42a7b78d4fa2861c52c7915543",
+    "footer_pages": 74
+  },
+  {
+    "file": "2.2-protection.pdf",
+    "pages": 52,
+    "expected_pages": 52,
+    "bytes": 7278282,
+    "sha256": "9b602a554544aec87bde536e0508843bc286f2f3447aff1a13d08ce98edca3f1",
+    "footer_pages": 52
+  },
+  {
+    "file": "3.1-power-system-dynamics.pdf",
+    "pages": 106,
+    "expected_pages": 106,
+    "bytes": 44349009,
+    "sha256": "15160f92b65dd6c03e28032d35b49d3c98a05043a831718bc33cb00b2563ab9a",
+    "footer_pages": 106
+  },
+  {
+    "file": "3.2-frequency-control.pdf",
+    "pages": 59,
+    "expected_pages": 59,
+    "bytes": 3997577,
+    "sha256": "b644f4c38d19150cb498174686ab63d802a413ebf395cfaae0ebbecf7e87880f",
+    "footer_pages": 59
+  },
+  {
+    "file": "4.1-voltage-control.pdf",
+    "pages": 95,
+    "expected_pages": 95,
+    "bytes": 20305991,
+    "sha256": "f447c1ea420679b4e718e5546a1fbf1b72727597db440486e4219fa20113204b",
+    "footer_pages": 95
+  },
+  {
+    "file": "5.1-voltage-collapse.pdf",
+    "pages": 94,
+    "expected_pages": 94,
+    "bytes": 27790003,
+    "sha256": "8605a5f840da15dae1e5940339e0cce7b9e1b9c7c7a21099f65a0544c00a435b",
+    "footer_pages": 94
+  },
+  {
+    "file": "6.1-transient-stability.pdf",
+    "pages": 93,
+    "expected_pages": 93,
+    "bytes": 83289839,
+    "sha256": "b0ee6404af1fc2f5cd32b032f4ca7259209c6da02755769e4a05520e33d7473b",
+    "footer_pages": 93
+  },
+  {
+    "file": "6.2-small-signal-stability.pdf",
+    "pages": 119,
+    "expected_pages": 119,
+    "bytes": 47390506,
+    "sha256": "41ac255ebbccc1eb17587e30da315686b6ac45908f256a9a7a02f3a8203f7461",
+    "footer_pages": 119
+  }
+]
