@@ -68,6 +68,18 @@ p { max-width: 68ch; margin: .85rem 0 0; }
 .byline { margin-top: .65rem; color: var(--muted); }
 .description { margin-top: 1.3rem; }
 .project-note { color: var(--muted); }
+.course-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.course-gallery a { display: block; }
+.course-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .lectures {
   margin-top: 2rem;
   padding-top: 1.45rem;
@@ -102,6 +114,7 @@ a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
 @media (max-width: 38rem) {
   .wrap { width: calc(100% - 2rem); }
   main { padding-top: 2.15rem; }
+  .course-gallery { grid-template-columns: 1fr; }
   .lecture-group { grid-template-columns: 1fr; }
   .lecture-group li + li { margin-top: .5rem; }
 }

@@ -4,6 +4,7 @@ root=Path(__file__).resolve().parent
 out=root/'_site';out.mkdir(exist_ok=True)
 for pattern in ('*.html','*.css','*.woff2','*.pdf','LICENSE.txt','CNAME'):
  for source in root.glob(pattern):shutil.copy2(source,out/source.name)
+shutil.copytree(root/'figures', out/'figures', dirs_exist_ok=True)
 manifest=json.loads((root/'final-pdf-manifest.json').read_text())
 for item in manifest:
  name=item['file'];parts=sorted(root.glob(name+'.part[0-9][0-9]'))
