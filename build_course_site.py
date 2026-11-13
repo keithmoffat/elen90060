@@ -18,3 +18,14 @@ for item in manifest:
  assert hashlib.sha256(data).hexdigest()==item['sha256'],name+' SHA256 mismatch'
  print('VERIFIED',name,item['sha256'])
 assert not list(out.glob('*data-centres*'))
+
+# Serve the live course through the personal site's /elen90060 route.
+homepage = (out / 'index.html').read_text(encoding='utf-8')
+course_home = 'https://www.keithmoffat.com/elen90060/'
+asset_origin = 'https://elen90060.keithmoffat.com/'
+course_page = homepage.replace(
+    '<head>',
+    f'<head>\n  <base href="{asset_origin}">\n  <link rel="canonical" href="{course_home}">',
+    1,
+)
+(out / 'course.html').write_text(course_page, encoding='utf-8')
