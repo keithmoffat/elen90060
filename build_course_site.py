@@ -29,3 +29,22 @@ course_page = homepage.replace(
     1,
 )
 (out / 'course.html').write_text(course_page, encoding='utf-8')
+
+# Send visitors at the GitHub Pages homepage to the canonical course URL.
+(out / 'index.html').write_text(
+    f'''<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url={course_home}">
+  <link rel="canonical" href="{course_home}">
+  <title>Power System Analysis | ELEN90060</title>
+</head>
+<body>
+  <p><a href="{course_home}">Continue to ELEN90060 Power System Analysis</a></p>
+</body>
+</html>
+''',
+    encoding='utf-8',
+)
